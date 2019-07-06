@@ -1,2 +1,20 @@
 hvis vi skriver noe her
 så du kker det opp i versjonskontroll
+
+git pull 						//laster ned endringer fra server
+git status						// viser hva som er endret siden sist
+git diff 						//viser endringene du har ghort på fila
+git add 						//(. punktum for alle eller filnavnet for bare den filen) legger til alle endringer du har gjort klare til en commit
+git commit -m "commit melding" //gjør klar til å legge opp filene
+git push 						//legger opp filene til ekstern server
+
+
+git init //initialiserer et git repo
+git clone "http://ditt-repo" //laster ned server repo
+git branch --set-upstream foo upstream/foo //setter gitt til å peke branch foo på serveren sin origin/foo 
+
+:q // quit
+:wq // write quit, lagre og quit
+:q! // quit not write, quit uten å lagre 
+
+.gitignore //fil som inneholder informasjon til git om hva som ikke skal lastes opp
